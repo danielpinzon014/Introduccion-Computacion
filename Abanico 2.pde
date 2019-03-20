@@ -1,3 +1,4 @@
+// Daniel Pinzon
 size (1280, 720);
 background(255);
 for (int j=270;j>90 ; j--){ //angulo 
