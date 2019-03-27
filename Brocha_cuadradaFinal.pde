@@ -60,7 +60,7 @@ void draw() {
   String s = "Limpiar";
   text(s,30, height-10, 45, 45);
   
-  //Resaltar el boton de limpiar 
+  //Resaltar el boton de limpiar //tomado de https://processing.org/examples/rollover.html
   if (mouseX>10 && mouseX<30 && mouseY>height-30 && mouseY<height-10) {
     fill(0, 0, 100, 50);
     text(s,30,height-10,45,45);
@@ -115,13 +115,6 @@ void mousePressed() {
       mouseY>height-30 && mouseY<height-10) {
     button1 = !button1;
     }
-     //borrar pantalla 
-  if ((mouseX < 160) && (mouseX > 90)  
-   && (mouseY < 580)  && (mouseY > 510)) {  
-        
-       //se dibuja otra vez la interface 
-        background(255);
-      }
 }
 
 void keyPressed(){
